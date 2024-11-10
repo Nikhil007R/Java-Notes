@@ -27,6 +27,8 @@ class LinearSearch {
         System.out.println("Key to find");
         int key = sc.nextInt();
 
+        sc.close();
+
         if (Search(arr, key) != -1) {
             System.out.println("Found at index " + Search(arr, key));
         } else {
